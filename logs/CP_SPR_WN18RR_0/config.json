@@ -1,0 +1,22 @@
+{
+    "dataset": "WN18RR",
+    "model": "CP",
+    "regularizer": "SPR",
+    "optimizer": "Adagrad",
+    "max_epochs": 1000,
+    "valid": 50.0,
+    "rank": 3000,
+    "batch_size": 4000,
+    "reg": 0.11,
+    "init": 0.001,
+    "learning_rate": 0.1,
+    "decay1": 0.9,
+    "decay2": 0.999,
+    "do_train": true,
+    "do_test": false,
+    "do_save": true,
+    "do_ce_weight": true,
+    "save_path": "../logs/",
+    "model_id": "0",
+    "checkpoint": ""
+}
